@@ -1,0 +1,5 @@
+n=int(input())
+nums=list(map(int,input().split()))
+print((n*(n+1))//2-sum(nums))
+''' Time Complexity--O(n)
+    Space Complexity--O(1)'''
